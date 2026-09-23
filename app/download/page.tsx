@@ -10,21 +10,30 @@ export const metadata: Metadata = {
 // The installer is ~82 MB, which Cloudflare Pages will not serve: it caps a single file at
 // 25 MB. So the binary lives on a GitHub release of this repository and the site links to
 // it. Keep the tag and asset name in step with the release, or this 404s.
-const RELEASE_TAG = "desktop-v1.0.0";
-const ASSET = "PipeHive-Setup-1.0.0.exe";
+const RELEASE_TAG = "desktop-v1.0.1";
+const ASSET = "PipeHive-Setup-1.0.1.exe";
 const DOWNLOAD_URL = `https://github.com/cwlarsen-pipehive/pipehive-website/releases/download/${RELEASE_TAG}/${ASSET}`;
 
 export default function Download() {
   return (
-    <LegalPage title="PipeHive for Windows" updated="Version 1.0.0 · Pilot release">
+    <LegalPage title="PipeHive for Windows" updated="Version 1.0.1 · Pilot release">
       <p>
         The PipeHive desktop application for Windows. It is the same application as the
         mobile app and works against the same projects, so anything recorded on a phone in
         the field is on the desktop, and the reverse.
       </p>
       <p>
-        <a href={DOWNLOAD_URL}>Download PipeHive Setup 1.0.0 for Windows</a> — about 82 MB,
+        <a href={DOWNLOAD_URL}>Download PipeHive Setup 1.0.1 for Windows</a> — about 82 MB,
         64-bit Windows 10 or 11.
+      </p>
+
+      <h3>Your browser may block the download first</h3>
+      <p>
+        Chrome holds downloads it cannot verify, leaving a partial file named something
+        like <strong>Unconfirmed 442718.crdownload</strong> instead of the installer. If that
+        happens, open <strong>chrome://downloads</strong>, find PipeHive, and choose{" "}
+        <strong>Keep</strong>. The file then finishes and renames itself correctly. Edge and
+        Firefox usually download it without this step.
       </p>
 
       <h3>You will see a warning from Windows</h3>
