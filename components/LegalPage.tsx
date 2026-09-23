@@ -23,6 +23,7 @@ export default function LegalPage({
           <a href="/">Home</a>
           <a href="/privacy">Privacy</a>
           <a href="/support">Support</a>
+          <a href="/download">Windows app</a>
         </nav>
       </header>
 
@@ -39,6 +40,7 @@ export default function LegalPage({
         <div>
           <a href="/privacy">Privacy</a>
           <a href="/support">Support</a>
+          <a href="/download">Windows app</a>
           <a href="/#contact">Contact</a>
         </div>
       </footer>
