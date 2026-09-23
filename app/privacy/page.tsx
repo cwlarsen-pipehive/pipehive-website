@@ -37,6 +37,17 @@ export default function Privacy() {
         messages, and similar operational entries.
       </p>
       <p>
+        <strong>Credential information that may be sensitive.</strong> Depending on how a
+        project operator configures its credential requirements, the records above can include
+        union membership and medical-fitness or occupational-health status — for example a
+        fitness-to-work clearance — alongside trade certifications and equipment tickets. This
+        information is entered by you or by authorized project personnel, is used only to
+        determine whether someone is qualified for the work being assigned, and is visible only
+        to authorized members of the same project. It is never used for advertising or
+        tracking, never sold, and never disclosed to anyone outside the project other than our
+        hosting processor.
+      </p>
+      <p>
         <strong>Location.</strong> When location sharing is enabled, PipeHive collects precise
         device location to show active crews on the project spread, to support workday and
         timesheet tracking, and to give emergency responders positional awareness. On supported
