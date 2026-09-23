@@ -157,7 +157,7 @@ export default function Home() {
 
       <section className="company" id="company" aria-labelledby="company-heading"><div className="company-copy"><div className="section-label">Company</div><h2 id="company-heading">PIPEHIVE TECH LTD.</h2><p>PIPEHIVE TECH LTD. is a British Columbia software company developing operational technology specifically for pipeline and field construction.</p></div><div className="company-cta"><h3>See PipeHive on a pipeline spread.</h3><a className="button" href="#contact">Request a Demo <ArrowUpRight /></a><address id="contact"><span>British Columbia, Canada</span><a href="mailto:c.w.larsen@pipehive.net">c.w.larsen@pipehive.net</a></address></div></section>
 
-      <footer><span>PIPEHIVE TECH LTD. © 2026</span><div><a href="#privacy">Privacy</a><a href="#contact">Contact</a></div></footer>
+      <footer><span>PIPEHIVE TECH LTD. © 2026</span><div><a href="/privacy">Privacy</a><a href="/support">Support</a><a href="#contact">Contact</a></div></footer>
     </main>
   );
 }
