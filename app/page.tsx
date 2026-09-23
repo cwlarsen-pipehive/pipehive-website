@@ -38,7 +38,7 @@ export default function Home() {
           <a href="#operating-model">Operating model</a>
           <a href="#company">Company</a>
         </nav>
-        <a className="button button-small" href="#contact">Request a Demo <ArrowUpRight /></a>
+        <a className="button button-small" href="/download">Download Demo <ArrowUpRight /></a>
       </header>
 
       <section className="hero" id="top" aria-labelledby="hero-heading">
@@ -47,7 +47,7 @@ export default function Home() {
           <div>
             <h1 id="hero-heading">Field operations software built around the pipeline spread.</h1>
             <p className="hero-copy">PipeHive gives pipeline construction teams a shared operational view of the right-of-way—connecting crews, work, tasks, safety, emergency response, communication and project progress in one system.</p>
-            <a className="button" href="#contact">Request a Demo <ArrowUpRight /></a>
+            <a className="button" href="/download">Download Demo <ArrowUpRight /></a>
             <p className="hero-note">Developed by PIPEHIVE TECH LTD. in British Columbia, Canada.</p>
           </div>
           <div className="spread-showcase">
@@ -155,7 +155,7 @@ export default function Home() {
 
       <section className="stage" aria-labelledby="stage-heading"><div className="stage-inner"><div className="section-label">Current stage</div><h2 id="stage-heading">Working MVP. Preparing for field validation.</h2><p>PipeHive&apos;s core multi-user platform is operational, including project coordination, tasks, safety, emergency, progress and communication systems.</p><p>The next phase is professional hardening, field validation and early commercial deployment.</p></div></section>
 
-      <section className="company" id="company" aria-labelledby="company-heading"><div className="company-copy"><div className="section-label">Company</div><h2 id="company-heading">PIPEHIVE TECH LTD.</h2><p>PIPEHIVE TECH LTD. is a British Columbia software company developing operational technology specifically for pipeline and field construction.</p></div><div className="company-cta"><h3>See PipeHive on a pipeline spread.</h3><a className="button" href="#contact">Request a Demo <ArrowUpRight /></a><address id="contact"><span>British Columbia, Canada</span><a href="mailto:c.w.larsen@pipehive.net">c.w.larsen@pipehive.net</a></address></div></section>
+      <section className="company" id="company" aria-labelledby="company-heading"><div className="company-copy"><div className="section-label">Company</div><h2 id="company-heading">PIPEHIVE TECH LTD.</h2><p>PIPEHIVE TECH LTD. is a British Columbia software company developing operational technology specifically for pipeline and field construction.</p></div><div className="company-cta"><h3>See PipeHive on a pipeline spread.</h3><a className="button" href="/download">Download Demo <ArrowUpRight /></a><address id="contact"><span>British Columbia, Canada</span><a href="mailto:c.w.larsen@pipehive.net">c.w.larsen@pipehive.net</a></address></div></section>
 
       <footer><span>PIPEHIVE TECH LTD. © 2026</span><div><a href="/privacy">Privacy</a><a href="/support">Support</a><a href="/download">Windows app</a><a href="#contact">Contact</a></div></footer>
     </main>
