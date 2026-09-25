@@ -1,12 +1,12 @@
 {
-  "version": "20260924044509",
+  "version": "20260925190139",
   "files": [
     {
-      "path": "_expo/static/js/web/entry-1b9a54d022e32952fc02de149466df03.js",
-      "size": 6032913
+      "path": "_expo/static/js/web/entry-01a6576ea51b69658a52770d94189bb9.js",
+      "size": 6906386
     },
     {
-      "path": "_expo/static/js/web/index-c6c208df3850dc8de050e9ffd2d8593d.js",
+      "path": "_expo/static/js/web/index-9a01e563feb51b944fb9507efa18980d.js",
       "size": 1086
     },
     {
@@ -108,6 +108,14 @@
     {
       "path": "metadata.json",
       "size": 49
+    },
+    {
+      "path": "pdf.worker.min.mjs",
+      "size": 1265413
+    },
+    {
+      "path": "pdf.worker.version.json",
+      "size": 27
     }
   ]
 }
